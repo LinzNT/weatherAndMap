@@ -160,6 +160,7 @@ const Main = () => {
 
                 {/* could put extended forcast here */}
             </div>
+            <br />
             <MapComponent
                 city={city}
                 temperature={temperature}
