@@ -6,8 +6,10 @@ const Index = () => (
     <div>
         <Head>
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+            <meta name="robots" content="noindex" />
         </Head>
         <div className="container-fluid grey">
+            hello testing production
             <div className="row">
                 <div className="col">
                     <h1 className="text-center display-3">The North Coast Pizza's chain weather map system</h1>
