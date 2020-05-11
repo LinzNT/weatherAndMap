@@ -1,0 +1,22 @@
+{
+  "name": "speedline-tech",
+  "homepage": "https://speedline-tech.lindsaytesar.ca",
+  "version": "1.0.0",
+  "description": "The North Coast Pizza's chain weather map system",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.3.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-google-maps": "^9.4.5"
+  }
+}
