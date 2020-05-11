@@ -9,7 +9,6 @@ const Index = () => (
             <meta name="robots" content="noindex" />
         </Head>
         <div className="container-fluid grey">
-            hello testing production
             <div className="row">
                 <div className="col">
                     <h1 className="text-center display-3">The North Coast Pizza's chain weather map system</h1>
