@@ -8,7 +8,7 @@ const MapComponent = withScriptjs(withGoogleMap((props) => (
         defaultZoom={5}
         defaultCenter={{ lat: props.lat, lng: props.long }}
         center={{ lat: props.lat, lng: props.long }}
-    >help
+    >WTF
         {props.isMarkerShown &&
             <Marker shape="rectangle" position={{ lat: props.lat, lng: props.long }}>
                 <InfoWindow
