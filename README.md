@@ -1,4 +1,4 @@
-# speedline
+# speedline tech test
 
 This application runs on JavaScript react to be specific and Next.js
 It was built using https://vercel.com/ so could test next.js locally, as well as using RAPID API marketplace
