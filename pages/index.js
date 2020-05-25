@@ -10,7 +10,7 @@ const Index = () => (
         <div className="container-fluid grey">
             <div className="row">
                 <div className="col">
-                    <h1 className="text-center display-3">The North Coast Pizza's chain weather map system</h1>
+                    <h1 className="text-center display-3">The weather map system</h1>
                     <p className="lead text-center">Find the weather for the city bellow</p>
                     <Map />
                 </div>

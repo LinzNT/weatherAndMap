@@ -1,8 +1,7 @@
 {
-  "name": "speedline-tech",
-  "homepage": "https://speedline-tech.lindsaytesar.ca",
+  "name": "weather-and-map",
   "version": "1.0.0",
-  "description": "The North Coast Pizza's chain weather map system",
+  "description": "The weather map system",
   "main": "index.js",
   "scripts": {
     "dev": "next",

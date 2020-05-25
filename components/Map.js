@@ -85,66 +85,6 @@ const Main = () => {
             <div className="col-sm-12 col-md-3">
                 <h2 className="text-center">Find current Weather Conditions</h2>
                 <form className="text-center" onSubmit={updateWeatherAndCoordinates}>
-                    <h2>Favorite Cities</h2>
-                    <div className="col-sm-12 text-center">
-                        <button
-                            className="btn btn-secondary"
-                            // Import to put country otherwise google sends you places, also if you put CA, if there is a city in california aka Creston California, you end up there.
-                            value="Dease Lake,Canada"
-                            onClick={(e) => setCity(e.target.value)}>
-                            Dease Lake
-                        </button>
-                    </div>
-                    <div className="col-sm-12 text-center">
-                        <button
-                            className="btn btn-secondary"
-                            value="Fort Nelson,Canada"
-                            onClick={(e) => setCity(e.target.value)}>
-                            Fort Nelson
-                        </button>
-                    </div>
-                    <div className="col-sm-12 text-center">
-                        <button
-                            className="btn btn-secondary"
-                            value="Terrace,Canada"
-                            onClick={(e) => setCity(e.target.value)}>
-                            Terrace
-                    </button>
-                    </div>
-                    <div className="col-sm-12 text-center">
-                        <button
-                            className="btn btn-secondary"
-                            value="Prince George,Canada"
-                            onClick={(e) => setCity(e.target.value)}>
-                            Prince George
-                        </button>
-                    </div>
-                    <div className="col-sm-12 text-center">
-                        <button
-                            className="btn btn-secondary"
-                            value="Whistler,Canada"
-                            onClick={(e) => setCity(e.target.value)}>
-                            Whistler
-                        </button>
-                    </div>
-                    <div className="col-sm-12 text-center">
-                        <button
-                            className="btn btn-secondary"
-                            value="Revelstoke,Canada"
-                            onClick={(e) => setCity(e.target.value)}>
-                            Revelstoke
-                        </button>
-                    </div>
-                    <div className="col-sm-12 text-center">
-                        <button
-                            className="btn btn-secondary"
-                            value="Creston,Canada"
-                            onClick={(e) => setCity(e.target.value)}>
-                            Creston
-                        </button>
-                    </div>
-                </form>
-                <form className="text-center" onSubmit={updateWeatherAndCoordinates}>
                     <div className="col-sm-12 text-center">
                         <input
                             type="text"
