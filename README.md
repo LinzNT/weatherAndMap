@@ -23,6 +23,5 @@ Steps
 4. run <code>now</code>
 5. Follow promps, I did not overide any settings ... if you do you are on your own
 6. Run <code>now dev</code> The application should again be available at http://localhost:3000
-7. In the project root make sure tin run <code>npm install isomorphic-unfetch --save</code>
-   and <code>npm install react-google-maps --save</code>
-   - none of my node packages are here so you need to make sure to install them
+7. In the project root make sure tin run <code>npm install</code>
+   - none of my node packages are here so you need to make sure to install them through the dependancies
